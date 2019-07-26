@@ -12,3 +12,5 @@ server.get('/', (req, res) => {
 server.listen(4000, () => {
   console.log('Server running on port 4000');
 });
+
+module.exports = server;
